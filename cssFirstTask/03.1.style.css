@@ -1,0 +1,12 @@
+.headinng {
+  background: hsl(240, 100%, 50%);
+  color: yellow;
+  text-align: center;
+  padding: 20px;
+}
+.blu {
+  color: rgb(255, 0, 0);
+}
+.hea {
+  color: green;
+}

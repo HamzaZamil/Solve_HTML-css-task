@@ -1,0 +1,18 @@
+.bod {
+  background-color: #7effd4;
+}
+.one {
+  background-color: #fff;
+  color: red;
+}
+.two {
+  background-image: url(images/BXe0.gif);
+  color: #fff;
+}
+#three {
+  background-image: url(images/background.jpg),
+    url(images/istockphoto-1393920394-612x612.jpg);
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
+  background-size: contain, cover;
+}

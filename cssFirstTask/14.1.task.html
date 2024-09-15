@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h1 {
+        margin: 0;
+        padding: 20px;
+      }
+
+      p {
+        padding: 0 20px;
+      }
+
+      .container {
+        display: flex;
+        height: 100vh;
+      }
+
+      .ver {
+        background-image: url(images/background.jpg);
+        background-repeat: repeat-y;
+        width: 25%;
+        text-wrap: nowrap;
+        overflow: visible;
+        color: white;
+        z-index: 1;
+      }
+
+      .hori {
+        background-image: url(images/BXe0.gif);
+        background-repeat: repeat-x;
+        width: 75%;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="ver">
+        <h1>Vertical and Horizontal background image</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed enim
+          quia, ratione voluptatem pariatur iusto, voluptatem officiis optio et
+          quis mollitia, distinctio porro?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed enim
+          quia, ratione voluptatem pariatur iusto, voluptatem officiis optio et
+          quis mollitia, distinctio porro?
+        </p>
+      </div>
+
+      <div class="hori"></div>
+    </div>
+  </body>
+</html>

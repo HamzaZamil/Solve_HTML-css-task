@@ -1,0 +1,11 @@
+.front {
+  background: blue;
+  color: white;
+}
+
+.back {
+  background-image: url(images/background.jpg);
+  background-repeat: no-repeat;
+  padding: 50px;
+  object-fit: cover;
+}
