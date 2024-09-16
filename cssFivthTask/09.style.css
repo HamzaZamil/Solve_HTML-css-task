@@ -1,0 +1,112 @@
+body {
+  display: flex;
+  justify-content: center;
+  height: 97vh;
+}
+.all-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  border: 8px solid orange;
+  width: 950px;
+}
+
+.box-one {
+  background-color: #1abc9c;
+  color: white;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+}
+
+.box-two {
+  background-color: #3498db;
+  color: white;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+}
+
+.box-three {
+  background-color: #9b59b6;
+  color: white;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+}
+
+.box-four {
+  background-color: #34495e;
+  color: white;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+}
+
+.box-five {
+  background-color: #f1c40f;
+  color: white;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+}
+
+.box-six {
+  background-color: #e67e22;
+  color: white;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+}
+
+.box-seven {
+  background-color: #e74c3c;
+  color: white;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+}
+
+.box-eight {
+  background-color: #808080;
+  color: white;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+}
+
+.box-nine {
+  background-color: #2ecc71;
+  color: white;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+}
+
+.box-ten {
+  background-color: #16a085;
+  color: white;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+}
