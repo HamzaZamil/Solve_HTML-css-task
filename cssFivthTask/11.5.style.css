@@ -1,0 +1,43 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  height: 400px;
+  padding: 10px;
+  row-gap: 5px;
+  column-gap: 5px;
+}
+
+.grid div {
+  background-color: #efefef;
+}
+
+.four {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 5px;
+  row-gap: 5px;
+}
+
+.four div {
+  padding: 5px;
+  background-color: #cfcfcf;
+}
+
+.vertical-line {
+  display: grid;
+  row-gap: 5px;
+}
+
+.vertical-line div {
+  background-color: #cfcfcf;
+}
+
+.horizantal-line {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 5px;
+}
+
+.horizantal-line div {
+  background-color: #cfcfcf;
+}
