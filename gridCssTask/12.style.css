@@ -1,0 +1,28 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+
+  gap: 20px;
+}
+
+.item {
+  border-radius: 20px;
+  border: 0.5px solid #848484;
+  width: 300px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+button {
+  background-color: #008080;
+  border-radius: 15px;
+  color: white;
+  padding: 10px;
+}
+
+.title {
+  font-weight: 800;
+}
